@@ -1,0 +1,16 @@
+D:\Education\430c\Venomdictov\Project 6\Teachers\bin\Debug\net8.0-windows\Teachers.exe
+D:\Education\430c\Venomdictov\Project 6\Teachers\bin\Debug\net8.0-windows\Teachers.deps.json
+D:\Education\430c\Venomdictov\Project 6\Teachers\bin\Debug\net8.0-windows\Teachers.runtimeconfig.json
+D:\Education\430c\Venomdictov\Project 6\Teachers\bin\Debug\net8.0-windows\Teachers.dll
+D:\Education\430c\Venomdictov\Project 6\Teachers\bin\Debug\net8.0-windows\Teachers.pdb
+D:\Education\430c\Venomdictov\Project 6\Teachers\obj\Debug\net8.0-windows\Teachers.csproj.GenerateResource.cache
+D:\Education\430c\Venomdictov\Project 6\Teachers\obj\Debug\net8.0-windows\Teachers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Education\430c\Venomdictov\Project 6\Teachers\obj\Debug\net8.0-windows\Teachers.AssemblyInfoInputs.cache
+D:\Education\430c\Venomdictov\Project 6\Teachers\obj\Debug\net8.0-windows\Teachers.AssemblyInfo.cs
+D:\Education\430c\Venomdictov\Project 6\Teachers\obj\Debug\net8.0-windows\Teachers.csproj.CoreCompileInputs.cache
+D:\Education\430c\Venomdictov\Project 6\Teachers\obj\Debug\net8.0-windows\Teachers.dll
+D:\Education\430c\Venomdictov\Project 6\Teachers\obj\Debug\net8.0-windows\refint\Teachers.dll
+D:\Education\430c\Venomdictov\Project 6\Teachers\obj\Debug\net8.0-windows\Teachers.pdb
+D:\Education\430c\Venomdictov\Project 6\Teachers\obj\Debug\net8.0-windows\Teachers.genruntimeconfig.cache
+D:\Education\430c\Venomdictov\Project 6\Teachers\obj\Debug\net8.0-windows\ref\Teachers.dll
+D:\Education\430c\Venomdictov\Project 6\Teachers\obj\Debug\net8.0-windows\Teachers.TeachersForm.resources
