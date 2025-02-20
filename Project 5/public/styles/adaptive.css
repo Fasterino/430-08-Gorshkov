@@ -1,0 +1,70 @@
+@media (max-width: 720px) {
+    :root {
+        --width: 720;
+
+        --radius-1: calc(25 * (100vw / var(--width)));
+        --radius-2: calc(12.5 * (100vw / var(--width)));
+        --radius-3: calc(6.25 * (100vw / var(--width)));
+    }
+
+    body {
+        font-size: calc(32 * (100vw / var(--width)));
+    }
+
+    input,
+    textarea {
+        line-height: calc(40 * (100vw / var(--width)));
+        padding: calc(20 * (100vw / var(--width))) 10px;
+    }
+
+    .title-box {
+        height: calc(100 * (100vw / var(--width)));
+    }
+
+    .appeal-box,
+    .box,
+    .license-plate-block {
+        gap: calc(30 * (100vw / var(--width)));
+    }
+
+    .box {
+        padding: calc(50 * (100vw / var(--width)));
+        padding-top: calc(150 * (100vw / var(--width)));
+        padding-bottom: calc(200 * (100vw / var(--width)));
+    }
+
+    .promo-box {
+        padding-top: calc(50 * (100vw / var(--width)));
+    }
+
+    .button {
+        height: calc(100 * (100vw / var(--width)));
+        line-height: calc(100 * (100vw / var(--width)));
+    }
+
+    .control-button {
+        height: calc(80 * (100vw / var(--width)));
+    }
+
+    .control-button>img {
+        height: calc(50 * (100vw / var(--width)));
+    }
+}
+
+@media (max-width: 640px) {
+    .title-box {
+        margin: 180px 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .title-box {
+        margin: 210px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-box {
+        margin: 240px 0;
+    }
+}

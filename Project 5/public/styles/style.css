@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+:root {
+    --bg-title-box-color: #0008;
+    --bg-box-color: #000c;
+    --bg-appeal-box-color: #fff1;
+
+    --bg-img: url(/img/bg.jpg);
+    --bg-color: #666;
+    --fg-color: #fff;
+    --fg-link-color: #79f;
+    --fg-accent-color: #fff;
+    --fg-apply-color: #fff;
+    --fg-deny-color: #fff;
+    --fg-alt-accent-color: #347;
+    --bg-accent-color: #79fc;
+    --bg-apply-color: #7f9c;
+    --bg-deny-color: #f77c;
+    --bg-alt-accent-color: #fffc;
+    --fg-placeholder-color: #ccc;
+
+
+    --radius-1: 25px;
+    --radius-2: 12.5px;
+    --radius-3: 6.25px;
+}
+
+html,
+body {
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 32px;
+    color: var(--fg-color);
+
+    user-select: none;
+}
+
+a {
+    cursor: default;
+    color: var(--fg-link-color) !important;
+}
+
+textarea {
+    resize: none;
+}
+
+input,
+textarea {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 40px;
+
+    border: 4px solid var(--bg-accent-color);
+    color: var(--fg-accent-color);
+    background: none;
+
+    padding: 20px 10px;
+    border-radius: var(--radius-2);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--fg-placeholder-color);
+}
+
+h1,
+h2 {
+    font-size: 1em;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1 1 0;
+    width: 100%;
+    max-width: 720px
+}
+
+#bg {
+    position: fixed;
+    inset: 0;
+    background: var(--bg-img) var(--bg-color);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    text-shadow: 0 0 10px #000;
+    text-align: center;
+    font-size: 2em;
+}
+
+.title-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    height: 100px;
+    margin: 150px 0;
+    border-radius: var(--radius-1);
+    background: var(--bg-title-box-color);
+}
+
+.title-box .title {
+    position: initial;
+    margin: 0 !important;
+    flex: 1 1 0;
+}
+
+.appeal-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    background: var(--bg-appeal-box-color);
+    border-radius: var(--radius-2);
+    padding: 30px 10px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    flex: 1 1 auto;
+
+    background: var(--bg-box-color);
+    padding: 50px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+.box::after {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    content: '©Нарушениям.Нет 2025';
+    font-size: .75em;
+    color: #aaa;
+    text-align: center;
+}
+
+.promo-box {
+    padding-top: 50px;
+    border-radius: var(--radius-1) var(--radius-1) 0 0;
+}
+
+.box.hidden {
+    background: transparent;
+}
+
+.box.hidden::after {
+    content: '';
+}
+
+.button {
+    width: 100%;
+    height: 100px;
+    border-radius: var(--radius-2);
+
+    text-align: center;
+    line-height: 100px;
+    font-size: 1.5em;
+
+    background: var(--bg-accent-color);
+    color: var(--fg-accent-color);
+}
+
+.button-alt {
+    background: var(--bg-alt-accent-color);
+    color: var(--fg-alt-accent-color);
+}
+
+a,
+.button,
+.control-button {
+    transition: opacity 250ms ease-in-out;
+}
+
+a:hover,
+.button:hover,
+.control-button:hover {
+    opacity: .8;
+}
+
+a:active,
+.button:active,
+.control-button:active {
+    opacity: .6;
+}
+
+.license-plate-block {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.license-plate-block> :first-child {
+    flex: 4 1 0;
+    width: 1px;
+}
+
+.license-plate-block> :last-child {
+    flex: 3 1 0;
+    width: 1px;
+}
+
+.control-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.control-button {
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border-radius: var(--radius-3);
+}
+
+.control-button>img {
+    height: 50px;
+}
+
+.status {
+    margin-left: 10px;
+    padding: 0 10px;
+    border-radius: var(--radius-3);
+}
+
+.in-work {
+    background: var(--bg-accent-color);
+    color: var(--fg-accent-color);
+}
+
+.complete {
+    background: var(--bg-apply-color);
+    color: var(--fg-apply-color);
+}
+
+.deny {
+    background: var(--bg-deny-color);
+    color: var(--fg-deny-color);
+}
