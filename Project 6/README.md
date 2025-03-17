@@ -14,7 +14,7 @@ Windows Forms table application.
 ## Run already compiled app
 
 You can find already compiled application at
-[Project6 Last Release](../releases/tag/project-6-v1)
+[Project6 Last Release](../../../releases/tag/project-6-v1)
 
 ## Features
 
